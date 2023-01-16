@@ -50,7 +50,7 @@ def get_fruit_load_list():
       my_data_rows =get_fruit_load_list()
       streamlit.dataframe(my_data_rows)
 
-     streamlit.stop()
+streamlit.stop()
 # my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 # streamlit.text("Hello from Snowflake:")
 
